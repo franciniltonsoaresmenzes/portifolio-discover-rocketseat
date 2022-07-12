@@ -1,0 +1,46 @@
+body {
+  background-color: var(--body-bg-color);
+  display: grid;
+  padding: 40px;
+}
+
+footer {
+  display: flex;
+  margin-top: 19px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: var(--bg-cards);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  margin-top: 30px;
+}
+.profile__title {
+  display: block;
+  font-style: normal;
+  font-weight: var(--700);
+  font-size: var(--font-title);
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+.circule {
+  display: block;
+  width: 15px;
+  height: 15px;
+  background: #E7DE79;
+  border: 2px solid #837E9F;
+  border-radius: 50%;
+  margin: 8px;
+}
+
+::-webkit-scrollbar {
+  width: 0.6rem;
+  background-color: #5c5b72;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius:1rem;
+  background-color: #191828;
+}

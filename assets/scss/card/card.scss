@@ -1,0 +1,110 @@
+.profile__user {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 49px;
+  font-weight: var(--400);
+  font-size: var(--font-normal);
+  line-height: 16px;
+
+  &-img {
+    margin-bottom: 30px;
+    border: 2px solid #00FF00;
+    border-radius: 50%;
+  }
+  &-name {
+    margin-bottom: 10px;
+    font-size: 23px;
+    line-height: 29px;
+    font-weight: var(--700);
+  }
+  &-profission {
+    font-weight: var(--300);
+    font-size: var(--font-normal);
+    line-height: 16px;
+  }
+}
+
+.profile__bio {
+  padding: 30px 40px;
+
+  &-link {
+    display: flex;
+    align-items: center;
+    margin-bottom: 28px;
+  }
+  &-link img {
+    margin-right: 20px;
+  }
+}
+
+.profile__tecnologe {
+  padding: 30px 20px;
+
+  &-list {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(auto-fill, 87px);
+    margin-left: 10px ;
+    font-weight: 700;
+    font-size: var(--font-small);
+    color: black;
+    line-height: 13px;
+  }
+
+  &-item {
+    width: 86px;
+    height: 24px;
+    background: var(--bg-techs);
+    text-transform: uppercase;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.profile__experience {
+  padding: 30px 20px;
+
+  &-list {
+    margin-left: 20px;
+  }
+  &-item {
+    margin-bottom: 20px;
+    list-style: disc outside;
+  }
+
+  &-item span {
+    display: block;
+  }
+  &-title {
+    font-size:14px;
+    font-weight: var(--700);
+  }
+  &-data,
+  &-function {
+    font-size: 12px;
+  }
+}
+
+.profile__education {
+  padding: 30px 20px;
+
+  &-list {
+    margin-left: 20px;
+  }
+  &-item {
+    margin-bottom: 20px;
+    list-style: disc outside;
+  }
+
+  &-item span {
+    display: block;
+  }
+  &-title {
+    font-size:14px;
+    font-weight: var(--700);
+  }
+}

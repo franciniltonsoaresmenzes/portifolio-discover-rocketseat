@@ -1,0 +1,113 @@
+.my-projects {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &-title {
+    font-style: normal;
+    font-weight: var(--700);
+    font-size: var(--font-title);
+    line-height: 25px;
+  }
+
+  &-plus {
+    font-style: normal;
+    font-weight: var(--400);
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+.repositorio__projects {
+  padding: 30px;
+
+  &-title {
+    font-weight: var(--700);
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  &-data {
+    margin-bottom: 47px;
+  }
+  &-status {
+    display: flex;
+    justify-content: space-between;
+  }
+  &-title img {
+    margin-right: 16px;
+  }
+  &-git-status {
+    display: flex;
+  }
+  &-git {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  &-card {
+    margin-right: 5px;
+  }
+  &-tecnologia {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.repositorio {
+  display: grid;
+}
+
+.my-projects-recents {
+  padding: 30px;
+
+  &-title {
+    font-style: normal;
+    font-weight: var(--700);
+    font-size: var(--font-title);
+    line-height: 25px;
+  }
+
+}
+
+.repositorio__bio {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+
+  &-img {
+    max-width: 128px;
+    min-width: 80px;
+    height: auto;
+    margin: 20px;
+  }
+  &-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+  }
+  &-data {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  &-decription {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 28px 0 11px 0;
+  }
+  &-tag {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 100px);
+  }
+  &-tag li {
+    margin-right: 10px;
+  }
+}
+
