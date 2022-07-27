@@ -1,4 +1,4 @@
-# Dessafio Rocketseat - Portifolio
+# Desafio Rocketseat - Portifolio
 
 <img src="assets/images/Preview.gif" />
 
